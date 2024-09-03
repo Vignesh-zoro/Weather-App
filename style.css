@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Style The Card */
+.card
+{
+    background-color: lightblue;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+/* Style The Input Fields */
+.search
+{
+    width: 90%;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Style The Input Box */
+#city
+{
+    border: none;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* Error Message Will be Display none */
+.error
+{
+    display: none;
+}
+/* Style The Button */
+.btn
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+/* Weather Body Will Be Display None */
+.weather
+{
+ display: none;
+}
+/* Style The Images Of Weather-Images */
+.weather-icon
+{
+    width: 170px;
+  
+}
+.weather h1
+{
+    font-size: 60px;
+    font-weight: 500;
+}
+.weather h2
+{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+/* Style The Details Div */
+.details
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top: 50px;
+}
+.detail
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.col
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+}
+.col img
+{
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.hum,.wind,.pres,.visit
+{
+  font-size: 23px;
+}
+.para1
+{
+    margin-left: 5px;
+}
+/* ---------------------------------------------------------------- */

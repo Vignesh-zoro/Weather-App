@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="images/weather-app.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Create a Main-div-->
+    <div class="card">
+        <!-- Input Fields-->
+        <div class="search">
+            <input type="text" name="" id="city" placeholder="Enter City Name">
+            <button class="btn" onclick="search()">Search</button>
+        </div>
+        <!--Error Message-->
+        <div class="error">
+            <h4>-- Invalid city name --</h4>
+        </div>
+        <!-- Elements Of The Weather App-->
+        <div class="weather">
+            <img src="images/clear.png" class="weather-icon">
+            <h1 class="temp">32°C</h1>
+            <h2 id="name">Vellore</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="hum">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15 Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="col">
+                    <img src="images/pressure.png">
+                    <div>
+                        <p class="pres">0</p>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/weather.png">
+                    <div>
+                        <p class="visit"></p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+<!--Link The Script File-->
+<script src="script.js"></script>
+
+</html>
